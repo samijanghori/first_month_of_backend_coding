@@ -26,3 +26,25 @@ const {name , age , country} = user2;
 console.log(name);
 console.log(age);
 console.log(counter);
+
+
+
+
+
+
+// let's see about extracting from array
+const colors = ["Red" , "blue" , " yellow "];
+const first = colors[0];
+const second = colors[1];
+const third = colors[2];
+
+
+//lets see about extracting arra y in ES6
+
+const [first,second,third] = colors;
+// hot choose only few data from array
+const [ first ] = colors;
+
+// how to skipp some datas
+const [ first , ,third
+];
